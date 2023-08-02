@@ -1,3 +1,116 @@
+## Autove - Autonomous Vehicles Microservice App
+
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Docker Installation](#docker-installation)
+  - [Manual Installation](#manual-installation)
+- [Usage](#usage)
+  - [Running the Microservices](#running-the-microservices)
+  - [Accessing the Web Application](#accessing-the-web-application)
+- [Configuration](#configuration)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [Bug Reports and Feature Requests](#bug-reports-and-feature-requests)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+Autove is an Autonomous Vehicles Microservice App designed to streamline the management and control of autonomous vehicles through a collection of microservices. It provides a scalable and modular solution for handling various aspects of autonomous vehicle operations, making it easier for businesses and researchers to develop and deploy autonomous vehicle systems.
+
+## Features
+
+- **Vehicle Management:** Register, update, and delete autonomous vehicles through a user-friendly interface.
+- **Route Planning:** Plan efficient routes for autonomous vehicles based on real-time data and traffic conditions to optimize delivery and travel times.
+- **Sensor Data Handling:** Collect and process sensor data from autonomous vehicles for analysis and control, enabling better decision-making.
+- **Remote Control:** Remotely control autonomous vehicles for manual intervention or testing purposes, ensuring flexibility in operations.
+- **Safety Mechanisms:** Implement safety protocols and fail-safe mechanisms to ensure secure and reliable autonomous vehicle operations.
+
+## Installation
+
+### Prerequisites
+
+Before installing Autove, ensure you have the following prerequisites:
+
+- Node.js and npm: Make sure you have Node.js (version 12 or above) and npm (version 6 or above) installed on your system.
+
+### Docker Installation (Recommended)
+
+To quickly set up Autove using Docker, follow these steps:
+
+1. Install Docker on your machine from the official [Docker website](https://www.docker.com/products/docker-desktop).
+2. Clone the repository from [GitHub](https://github.com/your-username/autove).
+3. Navigate to the project directory.
+4. Build the Docker containers using `docker-compose build`.
+5. Start the services using `docker-compose up`.
+
+### Manual Installation
+
+If you prefer manual installation, follow these steps:
+
+1. Clone the repository from [GitHub](https://github.com/your-username/autove).
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Configure the necessary environment variables as specified in the [Configuration](#configuration) section.
+5. Start the microservices using `npm start`.
+
+## Usage
+
+### Running the Microservices
+
+To run the Autove microservices, follow these steps:
+
+1. Ensure all necessary dependencies are installed (via Docker or manual installation).
+2. Start the microservices as described in the [Installation](#installation) section.
+
+### Accessing the Web Application
+
+Once the microservices are up and running, you can access the Autove web application by visiting `http://localhost:3000` in your web browser.
+
+## Configuration
+
+The configuration of Autove can be managed through environment variables. Below are the key variables and their default values:
+
+```
+PORT=3000
+DATABASE_URL=mongodb://localhost:27017/autove_db
+DEBUG=true
+```
+
+## API Documentation
+
+For detailed information on the available API endpoints and how to interact with Autove, refer to the [API Documentation](https://example.com/autove-api-docs).
+
+## Contributing
+
+We welcome contributions to enhance the functionality and performance of Autove. To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test thoroughly.
+4. Submit a pull request with a clear description of your changes.
+
+## Bug Reports and Feature Requests
+
+If you encounter any bugs or have feature requests, please open an issue on [GitHub](https://github.com/your-username/autove/issues).
+
+## License
+
+Autove is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the software as per the terms of the license.
+
+## Contact
+
+For any further inquiries or questions, feel free to contact us at support@autove.com.
+
+---
+
+Thank you for choosing Autove! We hope this app helps you in efficiently managing autonomous vehicles. Should you need any assistance, don't hesitate to reach out to us. Happy autonomous driving!
+
 # Autove
 
 This application was generated using JHipster 8.0.0-beta.2, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2](https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2).
