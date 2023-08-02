@@ -101,7 +101,7 @@ If you encounter any bugs or have feature requests, please open an issue on [Git
 
 ## License
 
-Autove is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the software as per the terms of the license.
+Autove is licensed under the [MIT License](https://github.com/KOSASIH/Autove/blob/main/LICENSE). You are free to use, modify, and distribute the software as per the terms of the license.
 
 ## Contact
 
